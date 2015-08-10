@@ -15,6 +15,7 @@
 		E9A117201B673504004A71A5 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A1171F1B673504004A71A5 /* ToDoListTests.m */; };
 		E9A1172E1B687DA2004A71A5 /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A1172D1B687DA2004A71A5 /* AddToDoItemViewController.m */; };
 		E9A117311B687E2B004A71A5 /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A117301B687E2B004A71A5 /* ToDoListTableViewController.m */; };
+		E9A117341B744D5D004A71A5 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A117331B744D5D004A71A5 /* ToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		E9A1172D1B687DA2004A71A5 /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemViewController.m; sourceTree = "<group>"; };
 		E9A1172F1B687E2B004A71A5 /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = "<group>"; };
 		E9A117301B687E2B004A71A5 /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = "<group>"; };
+		E9A117321B744D5D004A71A5 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		E9A117331B744D5D004A71A5 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 			children = (
 				E9A1172F1B687E2B004A71A5 /* ToDoListTableViewController.h */,
 				E9A117301B687E2B004A71A5 /* ToDoListTableViewController.m */,
+				E9A117321B744D5D004A71A5 /* ToDoItem.h */,
+				E9A117331B744D5D004A71A5 /* ToDoItem.m */,
 				E9A1172C1B687DA2004A71A5 /* AddToDoItemViewController.h */,
 				E9A1172D1B687DA2004A71A5 /* AddToDoItemViewController.m */,
 				E9A117021B673504004A71A5 /* ToDoList */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9A117091B673504004A71A5 /* AppDelegate.m in Sources */,
+				E9A117341B744D5D004A71A5 /* ToDoItem.m in Sources */,
 				E9A117311B687E2B004A71A5 /* ToDoListTableViewController.m in Sources */,
 				E9A117061B673504004A71A5 /* main.m in Sources */,
 				E9A1172E1B687DA2004A71A5 /* AddToDoItemViewController.m in Sources */,
